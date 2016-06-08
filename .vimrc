@@ -1,3 +1,7 @@
+cabbrev E Explore
+syntax on
+filetype indent plugin on
+set backspace=indent,eol,start
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set laststatus=2
@@ -28,7 +32,9 @@ Plugin 'bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/syntastic'
 Plugin 'renderedtext/vim-bdd'
+Plugin 'elixir-lang/vim-elixir'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-rails'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
