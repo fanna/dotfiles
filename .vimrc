@@ -36,6 +36,7 @@ Plugin 'renderedtext/vim-bdd'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-rails'
+Plugin 'ctrlpvim/ctrlp.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
