@@ -28,15 +28,26 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+" Vim awesome airline
 Plugin 'bling/vim-airline'
+" Airline themes
 Plugin 'vim-airline/vim-airline-themes'
+" Awesome colors
 Plugin 'flazz/vim-colorschemes'
+" Syntax thingy
 Plugin 'scrooloose/syntastic'
+" Ruby BDD stuff
 Plugin 'renderedtext/vim-bdd'
+" Vim Elixir language support
 Plugin 'elixir-lang/vim-elixir'
+" Auto complete
 Plugin 'Valloric/YouCompleteMe'
+" Vim Rails helper
 Plugin 'tpope/vim-rails'
-Plugin 'ctrlpvim/ctrlp.vim'
+" TypeScript syntax and helper stuff
+Plugin 'HerringtonDarkholme/yats.vim'
+" GDScript (Godot language) highlighting
+Plugin 'a-watson/vim-gdscript'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
