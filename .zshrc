@@ -101,3 +101,14 @@ export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 # 20ms for key sequences
 KEYTIMEOUT=2
+
+alias ethereum="curl http://rate.sx/eth"
+alias weather="curl -4 wttr.in/Bratislava"
+alias dwarf="sh ~/Downloads/df_osx/df"
+alias spacemacs="emacs -nw"
+alias mud="telnet aardmud.org 23"
+alias mud2="telnet dsl-mud.org 4000"
+alias mud3="telnet shadowgate.org 4016"
+alias mud4="telnet mud.genesismud.org 3011"
+alias cheat="curl cht.sh"
+alias coffee="curl -Ls git.io/hotcoffee | sh"
