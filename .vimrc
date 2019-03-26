@@ -47,8 +47,12 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-rails'
 " TypeScript syntax and helper stuff
 Plugin 'HerringtonDarkholme/yats.vim'
+" JS syntax and helper stuff
+Plugin 'pangloss/vim-javascript'
 " GDScript (Godot language) highlighting
-Plugin 'a-watson/vim-gdscript'
+" Plugin 'a-watson/vim-gdscript'
+" Verilog syntax
+Plugin 'vhda/verilog_systemverilog.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -62,6 +66,8 @@ Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Racket/SICP stuff
+" Plugin 'MicahElliott/vrod'
 " Avoid a name conflict with L9
 Plugin 'user/L9', {'name': 'newL9'}
 " All of your Plugins must be added before the following line
