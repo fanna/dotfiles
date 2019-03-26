@@ -1,0 +1,34 @@
+{
+	"workbench.colorTheme": "Monokai",
+	"window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono for Powerline",
+    "workbench.colorCustomizations" : {
+        "terminal.ansiBlack": "#242728",
+		"terminal.ansiRed": "#fd4485",
+		"terminal.ansiGreen": "#b3e43b",
+		"terminal.ansiYellow": "#ffa827",
+		"terminal.ansiBlue": "#75e0f2",
+		"terminal.ansiMagenta": "#af8afe",
+		"terminal.ansiCyan": "#718488",
+		"terminal.ansiWhite": "#ffffff",
+		"terminal.ansiBrightBlack": "#636667",
+		"terminal.ansiBrightRed": "#ff80ad",
+		"terminal.ansiBrightGreen": "#c8ed72",
+		"terminal.ansiBrightYellow": "#ebe087",
+		"terminal.ansiBrightBlue": "#75e0f2",
+		"terminal.ansiBrightMagenta": "#af8afe",
+		"terminal.ansiBrightCyan": "#b2c6cb",
+		"terminal.ansiBrightWhite": "#f9f9f5",
+		"statusBar.background": "#b3e43b",
+		"statusBar.foreground": "#242728",
+		"statusBar.border": "#fd4485",
+		"statusBarItem.hoverBackground": "#ffa827",
+		"statusBarItem.activeBackground": "#c8ed72"
+	},
+	"materialTheme.fixIconsRunning": false,
+	"breadcrumbs.enabled": true,
+	"terminal.integrated.rendererType": "dom"
+}
