@@ -1,3 +1,8 @@
+nnoremap <C-p> :Files<CR>
+nnoremap <C-o> :Buffers<CR>
+nnoremap <C-g> :GFiles<CR>
+nnoremap <C-f> :Rg! 
+
 cabbrev E Explore
 syntax on
 set timeoutlen=1000 ttimeoutlen=0
@@ -22,6 +27,7 @@ set background=dark
     highlight ColorColumn ctermbg=7
       highlight ColorColumn guibg=Gray
 
+let g:polyglot_disabled = ['elixir', 'javascript']
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -44,9 +50,15 @@ Plugin 'pangloss/vim-javascript'
 
 Plugin 'tikhomirov/vim-glsl'
 
-Plugin 'ctrlpvim/ctrlp.vim'
+" Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 
-Plugin 'plasticboy/vim-markdown'
+" Plugin 'plasticboy/vim-markdown'
+
+Plugin 'elixir-editors/vim-elixir'
+
+Plugin 'sheerun/vim-polyglot'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

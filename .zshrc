@@ -129,13 +129,20 @@ alias guide="open http://graphicscodex.com/index.php"
 alias recipes="curl https://pastebin.com/raw/J3prVLty"
 alias aliases="tail -n 20  ~/.zshrc"
 alias ll="exa -lah"
-alias cat="bat"
+alias fcat="bat"
 alias size="dutree -s"
 alias dualmonitors="xrandr --output eDP1 --primary --mode 1920x1080 --output DP3 --mode 2560x1440 --left-of eDP1"
 alias fancytop="bpytop"
+alias geek="kmon"
+alias gemini="ncgopher"
+alias mosaic="zellij"
+alias gitinfo="onefetch"
+alias spotify="ncspot"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/fanna/work/google-cloud-sdk/path.zsh.inc' ]; then . '/home/fanna/work/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/fanna/work/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/fanna/work/google-cloud-sdk/completion.zsh.inc'; fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
