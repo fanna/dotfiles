@@ -138,6 +138,7 @@ alias gemini="ncgopher"
 alias mosaic="zellij"
 alias gitinfo="onefetch"
 alias spotify="ncspot"
+alias toot="toot tui"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/fanna/work/google-cloud-sdk/path.zsh.inc' ]; then . '/home/fanna/work/google-cloud-sdk/path.zsh.inc'; fi
